@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Libero-work/h_kaohe/simulation
+vtestbench
+Z1 !s110 1577793520
+!i10b 1
+!s100 WgHSgRK4J9^H3m0zDPKMQ3
+IbN]cj1^fT]Ni59cTX0dZ?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1577694724
+8D:/Libero-work/h_kaohe/stimulus/testbench.v
+FD:/Libero-work/h_kaohe/stimulus/testbench.v
+L0 3
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1577793520.000000
+!s107 D:/Libero-work/h_kaohe/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+D:/Libero-work/h_kaohe/stimulus|-vlog01compat|-work|presynth|D:/Libero-work/h_kaohe/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work presynth -O0
+!s92 +incdir+D:/Libero-work/h_kaohe/stimulus -vlog01compat -work presynth -O0
+Z5 tCvgOpt 0
+vxulie_1110
+R1
+!i10b 1
+!s100 4b;V^J[H8GC<;3@mhkHUY2
+IRND1BiMXQiB8K7GU_CZDc1
+R2
+R0
+w1577793489
+8D:/Libero-work/h_kaohe/hdl/xulie.v
+FD:/Libero-work/h_kaohe/hdl/xulie.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1577793519.000000
+!s107 D:/Libero-work/h_kaohe/hdl/xulie.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/Libero-work/h_kaohe/hdl/xulie.v|
+!s101 -O0
+!i113 1
+R4
+R5

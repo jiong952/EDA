@@ -1,0 +1,108 @@
+
+Starting:    D:\Software\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Software\Libero_SoC_v11.9\SynplifyPro
+Hostname:    ¾Į
+Date:        Tue Dec 31 19:59:30 2019
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log xulie_1110_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+auto_infer_blackbox is not supported in current product.
+
+log file: "D:\Libero-work\h_kaohe\synthesis\xulie_1110.srr"
+
+Running: synthesis in foreground
+
+
+
+Running xulie_1110_syn|synthesis
+
+
+Running: compile (Compile) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:30 2019
+
+
+Running: compile_flow (Compile Process) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:30 2019
+
+
+Running: compiler (Compile Input) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:30 2019
+
+Copied D:\Libero-work\h_kaohe\synthesis\synwork\xulie_1110_comp.srs to D:\Libero-work\h_kaohe\synthesis\xulie_1110.srs
+
+
+compiler completed
+# Tue Dec 31 19:59:32 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:32 2019
+
+
+multi_srs_gen completed
+# Tue Dec 31 19:59:32 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied D:\Libero-work\h_kaohe\synthesis\synwork\xulie_1110_mult.srs to D:\Libero-work\h_kaohe\synthesis\xulie_1110.srs
+
+Complete: Compile Process on xulie_1110_syn|synthesis
+
+
+Running: premap (Pre-mapping) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:32 2019
+
+
+premap completed with warnings
+# Tue Dec 31 19:59:33 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Compile on xulie_1110_syn|synthesis
+
+
+Running: map (Map) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:33 2019
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on xulie_1110_syn|synthesis
+# Tue Dec 31 19:59:33 2019
+
+Copied D:\Libero-work\h_kaohe\synthesis\synwork\xulie_1110_m.srm to D:\Libero-work\h_kaohe\synthesis\xulie_1110.srm
+
+
+fpga_mapper completed with warnings
+# Tue Dec 31 19:59:34 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Map on xulie_1110_syn|synthesis
+
+Complete: Logic Synthesis on xulie_1110_syn|synthesis
+
+TCL script complete: "xulie_1110_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

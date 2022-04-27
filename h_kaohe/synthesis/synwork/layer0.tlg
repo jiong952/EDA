@@ -1,0 +1,11 @@
+Selecting top level module xulie_1110
+@N: CG364 :"D:\Libero-work\h_kaohe\hdl\xulie.v":1:7:1:16|Synthesizing module xulie_1110 in library work.
+
+@N: CL201 :"D:\Libero-work\h_kaohe\hdl\xulie.v":43:0:43:5|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000

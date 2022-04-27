@@ -1,0 +1,29 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 28 17:01:44 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_CE2
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+a     4    Yes    GAB2/IO53RSB1  LVTTL    12                 High  None           No    35                No           No
+A0    70   Yes    GBC2/IO29RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+A1    71   Yes    GBB2/IO27RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+A2    72   Yes    IO26RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+A3    73   Yes    GBA2/IO25RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+b     62   Yes    GCA0/IO40RSB0  LVTTL    12                 High  None           No    35                No           No
+B0    57   Yes    GDA1/IO49RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B1    58   Yes    GDC0/IO46RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B2    59   Yes    GDC1/IO45RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B3    60   Yes    GCC2/IO43RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+c     100  Yes    IO00RSB0       LVTTL    12                 High  None           No    35                No           No
+Clk   20   Yes    GEB1/IO75RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+d     91   Yes    IO09RSB0       LVTTL    12                 High  None           No    35                No           No
+e     97   Yes    GAA1/IO03RSB0  LVTTL    12                 High  None           No    35                No           No
+f     27   Yes    GEB2/IO70RSB1  LVTTL    12                 High  None           No    35                No           No
+g     26   Yes    GEA2/IO71RSB1  LVTTL    12                 High  None           No    35                No           No
+MR    22   Yes    GEA1/IO73RSB1  LVTTL    ---                ---   None           ---   ---               No           No

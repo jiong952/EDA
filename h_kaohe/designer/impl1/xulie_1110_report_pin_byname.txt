@@ -1,0 +1,16 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 31 20:03:15 2019 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: xulie_1110
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port  |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Clk    98   Yes    GAA0/IO02RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Din    15   Yes    GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+Dout   2    Yes    GAA2/IO51RSB1  LVTTL    12                 High  None           No    35                No           No
+Reset  58   Yes    GDC0/IO46RSB0  LVTTL    ---                ---   None           ---   ---               No           No

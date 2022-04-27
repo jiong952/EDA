@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell zjh_74HC74.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1P1C1         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         4       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             10                  3.0

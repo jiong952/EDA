@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Thu Dec 23 15:10:33 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_74HC283
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+A[0]  35   No     IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+A[1]  43   No     IO57RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+A[2]  93   No     GAC1/IO07RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+A[3]  95   No     GAB1/IO05RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B[0]  34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+B[1]  41   No     IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+B[2]  92   No     IO08RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+B[3]  96   No     GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Cin   36   No     IO61RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+Cout  97   No     GAA1/IO03RSB0  LVTTL    12                 High  None           No    35                No           No
+S[0]  40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+S[1]  42   No     IO58RSB1       LVTTL    12                 High  None           No    35                No           No
+S[2]  91   No     IO09RSB0       LVTTL    12                 High  None           No    35                No           No
+S[3]  94   No     GAC0/IO06RSB0  LVTTL    12                 High  None           No    35                No           No

@@ -1,0 +1,63 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\D3120005043_zjh\hdl\3120005043_seq.v" (library work)
+@W:"C:\D3120005043_zjh\hdl\3120005043_seq.v":38:11:38:13|Net Q_n is not declared.
+@I::"C:\D3120005043_zjh\hdl\3120005043_comb.v" (library work)
+@I::"C:\D3120005043_zjh\component\work\zjh_CE2\zjh_CE2.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module zjh_CE2
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":100:7:100:16|Synthesizing module zjh_74HC85 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_seq.v":3:7:3:17|Synthesizing module zjh_74HC161 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":56:7:56:18|Synthesizing module zjh_74HC4511 in library work.
+
+@N: CG179 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":84:12:84:12|Removing redundant assignment.
+@W: CL118 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Latch generated from always block for signal L[6:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\D3120005043_zjh\component\work\zjh_CE2\zjh_CE2.v":9:7:9:13|Synthesizing module zjh_CE2 in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 16:58:09 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+File C:\D3120005043_zjh\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 16:58:09 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 16:58:09 2021
+
+###########################################################]

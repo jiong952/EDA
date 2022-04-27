@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Thu Dec 23 23:19:55 2021
+Project   :  C:\D3120005043_zjh
+Component :  zjh_CE0
+Family    :  ProASIC3
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/D3120005043_zjh/component/work/zjh_CE0/zjh_CE0.v
+

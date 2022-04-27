@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":139:7:139:17|Synthesizing module zjh_74HC283 in library work.
+@N|Running in 64-bit mode
+

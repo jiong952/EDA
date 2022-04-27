@@ -1,0 +1,33 @@
+Software Version: 11.9.0.4
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_CE1_fp
+Created new project 'C:\D3120005043_zjh\designer\impl1\zjh_CE1_fp\zjh_CE1.pro'
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_CE1.pdb' has been loaded successfully.
+DESIGN : zjh_CE1;  CHECKSUM : F66C;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer 'S2011JOG37' : FlashPro5
+Rescanning for Programmers DONE.
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_CE1.pdb' has been loaded successfully.
+DESIGN : zjh_CE1;  CHECKSUM : F66C;  PDB_VERSION : 1.9
+programmer 'S2011JOG37' : Scan Chain...
+Warning: programmer 'S2011JOG37' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2011JOG37' : Scan Chain PASSED.
+programmer 'S2011JOG37' : Executing action PROGRAM
+programmer 'S2011JOG37' : EXPORT FSN[48] = 8178a71840ec
+programmer 'S2011JOG37' : Erase ...
+programmer 'S2011JOG37' : Completed erase
+programmer 'S2011JOG37' : EXPORT CHECKSUM[16] = f66c
+programmer 'S2011JOG37' : Programming FPGA Array
+programmer 'S2011JOG37' : Verifying FPGA Array
+programmer 'S2011JOG37' :         Verifying FPGA Array -- pass
+programmer 'S2011JOG37' : Finished: Tue Dec 28 13:18:54 2021 (Elapsed time 00:02:35)
+programmer 'S2011JOG37' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'zjh_CE1' has been modified. Do you want to save it? [YES]
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_CE1_fp\projectData
+Project saved.
+Project closed.

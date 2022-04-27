@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Mon Dec 20 11:03:12 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_74HC161
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Cep   15   Yes    GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+Cet   10   Yes    GFB1/IO87RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+Clk   61   Yes    GCB2/IO42RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D[0]  32   Yes    IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+D[1]  35   Yes    IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+D[2]  96   Yes    GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D[3]  94   Yes    GAC0/IO06RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+MR    95   Yes    GAB1/IO05RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+PE    97   Yes    GAA1/IO03RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Q[0]  20   Yes    GEB1/IO75RSB1  LVTTL    12                 High  None           No    35                No           No
+Q[1]  40   Yes    IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+Q[2]  98   Yes    GAA0/IO02RSB0  LVTTL    12                 High  None           No    35                No           No
+Q[3]  34   Yes    IO63RSB1       LVTTL    12                 High  None           No    35                No           No
+TC    33   Yes    IO64RSB1       LVTTL    12                 High  None           No    35                No           No

@@ -1,0 +1,2 @@
+@W:"C:\D3120005043_zjh\hdl\3120005043_seq.v":38:11:38:13|Net Q_n is not declared.
+

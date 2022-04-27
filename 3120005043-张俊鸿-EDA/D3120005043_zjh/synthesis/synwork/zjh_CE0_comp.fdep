@@ -1,0 +1,23 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\D3120005043_zjh\\synthesis\\synwork\\zjh_CE0_comp.srs|-top|zjh_CE0|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\D3120005043_zjh\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509315136
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1508984288
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1508986328
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1508986328
+#CUR:"C:\\D3120005043_zjh\\hdl\\3120005043_seq.v":1640244759
+#CUR:"C:\\D3120005043_zjh\\component\\work\\zjh_CE0\\zjh_CE0.v":1640272795
+0			"C:\D3120005043_zjh\hdl\3120005043_seq.v" verilog
+1			"C:\D3120005043_zjh\component\work\zjh_CE0\zjh_CE0.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work zjh_CE0 1
+module work zjh_74HC112 0
+module work zjh_74HC74 0
+module work zjh_74HC194 0
+module work zjh_74HC161 0

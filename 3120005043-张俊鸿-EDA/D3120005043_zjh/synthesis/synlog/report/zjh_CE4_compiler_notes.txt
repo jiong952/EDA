@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2:7:2:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1905:7:1905:11|Synthesizing module XNOR2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3 in library work.
+@N: CG364 :"C:\D3120005043_zjh\smartgen\CP0\CP0.v":5:7:5:9|Synthesizing module CP0 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":104:7:104:10|Synthesizing module AO1C in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1416:7:1416:11|Synthesizing module NOR3A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":110:7:110:10|Synthesizing module AO1D in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":8:7:8:11|Synthesizing module AND2A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1470:7:1470:10|Synthesizing module OR2A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1374:7:1374:12|Synthesizing module NAND3A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1398:7:1398:11|Synthesizing module NOR2A in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":86:7:86:9|Synthesizing module AO1 in library work.
+@N: CG364 :"C:\D3120005043_zjh\smartgen\CP1\CP1.v":5:7:5:9|Synthesizing module CP1 in library work.
+@N: CG364 :"C:\D3120005043_zjh\smartgen\CP2\CP2.v":5:7:5:9|Synthesizing module CP2 in library work.
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":155:7:155:15|Synthesizing module zjh_TF_CC in library work.
+@N: CG364 :"C:\D3120005043_zjh\component\work\zjh_CE4\zjh_CE4.v":9:7:9:13|Synthesizing module zjh_CE4 in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\D3120005043_zjh\component\work\zjh_CE4\zjh_CE4.v":9:7:9:13|Selected library: work cell: zjh_CE4 view verilog as top level
+@N: NF107 :"C:\D3120005043_zjh\component\work\zjh_CE4\zjh_CE4.v":9:7:9:13|Selected library: work cell: zjh_CE4 view verilog as top level
+

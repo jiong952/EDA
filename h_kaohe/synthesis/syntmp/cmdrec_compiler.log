@@ -1,0 +1,9 @@
+D:\Software\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\Libero-work\h_kaohe\synthesis\synwork\xulie_1110_comp.srs  -top  xulie_1110  -hdllog  D:\Libero-work\h_kaohe\synthesis\synlog\xulie_1110_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I D:\Libero-work\h_kaohe\synthesis\  -I D:\Software\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  D:\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  D:\Libero-work\h_kaohe\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work D:\Libero-work\h_kaohe\hdl\xulie.v 
+relcom:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\xulie_1110_comp.srs -top xulie_1110 -hdllog ..\synlog\xulie_1110_compiler.srr -encrypt -mp 4 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib ..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\xulie.v
+rc:0 success:1 runtime:2
+file:..\synwork\xulie_1110_comp.srs|io:o|time:1577793571|size:1619|exec:0|csum:
+file:..\synlog\xulie_1110_compiler.srr|io:o|time:1577793571|size:3066|exec:0|csum:
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\xulie.v|io:i|time:1577793489|size:1224|exec:0|csum:F45A961A1CEAF85E3D6AEEE28F1FDCE3
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

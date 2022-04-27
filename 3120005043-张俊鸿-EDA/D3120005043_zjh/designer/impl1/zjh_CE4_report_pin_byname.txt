@@ -1,0 +1,31 @@
+*****************************************************************
+Pin Report - Date: Tue Jan 04 15:45:50 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_CE4
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port        |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+AEB          2    Yes    GAA2/IO51RSB1  LVTTL    12                 High  None           No    35                No           No
+AGB          3    Yes    IO52RSB1       LVTTL    12                 High  None           No    35                No           No
+ALB          4    Yes    GAB2/IO53RSB1  LVTTL    12                 High  None           No    35                No           No
+DataIn[0]    15   Yes    GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[1]    11   Yes    GFB0/IO86RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[2]    10   Yes    GFB1/IO87RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[3]    8    Yes    IO92RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[4]    7    Yes    IO93RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[5]    6    Yes    GAC2/IO94RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[6]    5    Yes    IO95RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn[7]    57   Yes    GDA1/IO49RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[0]  69   Yes    IO31RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[1]  70   Yes    GBC2/IO29RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[2]  71   Yes    GBB2/IO27RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[3]  72   Yes    IO26RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[4]  73   Yes    GBA2/IO25RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[5]  76   Yes    GBA1/IO24RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[6]  77   Yes    GBA0/IO23RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+DataIn_0[7]  85   No     IO13RSB0       LVTTL    ---                ---   None           ---   ---               No           No

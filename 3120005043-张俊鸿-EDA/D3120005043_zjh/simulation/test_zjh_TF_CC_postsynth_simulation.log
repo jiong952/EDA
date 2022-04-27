@@ -1,0 +1,117 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:16:09 on Dec 23,2021
+# vlog -reportprogress 300 -vlog01compat -work postsynth C:/D3120005043_zjh/synthesis/zjh_TF_CC.v 
+# -- Compiling module zjh_TF_CC
+# 
+# Top level modules:
+# 	zjh_TF_CC
+# End time: 15:16:09 on Dec 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 15:16:09 on Dec 23,2021
+# vlog -reportprogress 300 "+incdir+C:/D3120005043_zjh/stimulus" -vlog01compat -work postsynth C:/D3120005043_zjh/stimulus/test_comb.v 
+# -- Compiling module test_zjh_74HC148
+# -- Compiling module test_zjh_74HC138
+# -- Compiling module test_zjh_74HC4511
+# -- Compiling module test_zjh_74HC153
+# -- Compiling module test_zjh_74HC85
+# -- Compiling module test_zjh_74HC283
+# -- Compiling module test_zjh_TF_CC
+# 
+# Top level modules:
+# 	test_zjh_74HC148
+# 	test_zjh_74HC138
+# 	test_zjh_74HC4511
+# 	test_zjh_74HC153
+# 	test_zjh_74HC85
+# 	test_zjh_74HC283
+# 	test_zjh_TF_CC
+# End time: 15:16:09 on Dec 23,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postsynth -t 1ps postsynth.test_zjh_TF_CC 
+# Start time: 15:16:09 on Dec 23,2021
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postsynth.test_zjh_TF_CC
+# Loading postsynth.zjh_TF_CC
+# Loading proasic3.OUTBUF
+# Loading proasic3.MX2
+# Loading proasic3.XNOR2
+# Loading proasic3.OR3
+# Loading proasic3.INBUF
+# Loading proasic3.VCC
+# Loading proasic3.NOR2B
+# Loading proasic3.GND
+# Loading proasic3.XOR2
+# Loading proasic3.NOR2
+# Loading proasic3.UDP_MUX2
+# Loading proasic3.UDPN_MUX2
+# time=                   0,a=0000,b=xxxx
+# time=                   0,a=0000,b=xxx0
+# time=                   0,a=0000,b=0000
+# time=                5000,a=0001,b=0000
+# time=                5000,a=0001,b=0001
+# time=               10000,a=0010,b=0001
+# time=               10000,a=0010,b=0000
+# time=               10000,a=0010,b=0010
+# time=               15000,a=0011,b=0010
+# time=               15000,a=0011,b=0011
+# time=               20000,a=0100,b=0011
+# time=               20000,a=0100,b=0010
+# time=               20000,a=0100,b=0100
+# time=               25000,a=0101,b=0100
+# time=               25000,a=0101,b=0101
+# time=               30000,a=0110,b=0101
+# time=               30000,a=0110,b=0100
+# time=               30000,a=0110,b=0110
+# time=               35000,a=0111,b=0110
+# time=               35000,a=0111,b=0111
+# time=               40000,a=1000,b=0111
+# time=               40000,a=1000,b=0110
+# time=               40000,a=1000,b=1000
+# time=               40000,a=1000,b=0100
+# time=               41000,a=1000,b=0000
+# time=               45000,a=1001,b=0000
+# time=               45000,a=1001,b=0001
+# time=               45000,a=1001,b=1011
+# time=               46000,a=1001,b=1111
+# time=               50000,a=1010,b=1111
+# time=               50000,a=1010,b=1110
+# time=               55000,a=1011,b=1110
+# time=               55000,a=1011,b=1111
+# time=               55000,a=1011,b=1101
+# time=               60000,a=1100,b=1101
+# time=               60000,a=1100,b=1100
+# time=               60000,a=1100,b=1000
+# time=               61000,a=1100,b=1100
+# time=               65000,a=1101,b=1100
+# time=               65000,a=1101,b=1101
+# time=               65000,a=1101,b=1111
+# time=               66000,a=1101,b=1011
+# time=               70000,a=1110,b=1011
+# time=               70000,a=1110,b=1010
+# time=               75000,a=1111,b=1010
+# time=               75000,a=1111,b=1011
+# time=               75000,a=1111,b=1001
+# End time: 15:16:25 on Dec 23,2021, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0

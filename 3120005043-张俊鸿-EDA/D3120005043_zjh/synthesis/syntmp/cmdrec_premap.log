@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  1  -prjfile  C:\D3120005043_zjh\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\D3120005043_zjh\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\D3120005043_zjh\synthesis\synlog\report\zjh_BasGate_premap.xml  -oedif  C:\D3120005043_zjh\synthesis\zjh_BasGate.edn  -conchk_prepass  C:\D3120005043_zjh\synthesis\zjh_BasGate_cck.rpt   -freq 100.000   C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_prem.srd  -qsap  C:\D3120005043_zjh\synthesis\zjh_BasGate.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -ologparam  C:\D3120005043_zjh\synthesis\syntmp\zjh_BasGate.plg  -osyn  C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_prem.srd  -prjdir  C:\D3120005043_zjh\synthesis\  -prjname  zjh_BasGate_syn  -log  C:\D3120005043_zjh\synthesis\synlog\zjh_BasGate_premap.srr 
+relcom:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 1 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\zjh_BasGate_premap.xml -oedif ..\zjh_BasGate.edn -conchk_prepass ..\zjh_BasGate_cck.rpt -freq 100.000 ..\synwork\zjh_BasGate_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\zjh_BasGate_prem.srd -qsap ..\zjh_BasGate.sap -devicelib ..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -ologparam zjh_BasGate.plg -osyn ..\synwork\zjh_BasGate_prem.srd -prjdir ..\ -prjname zjh_BasGate_syn -log ..\synlog\zjh_BasGate_premap.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1641311566|size:1653|exec:0|csum:
+file:..\zjh_BasGate.edn|io:o|time:1641311568|size:4541|exec:0|csum:
+file:..\zjh_BasGate_cck.rpt|io:o|time:1641311568|size:19865|exec:0|csum:
+file:..\synwork\zjh_BasGate_mult.srs|io:i|time:1641311567|size:1416|exec:0|csum:FD5574776582DBE4CA31222D5E7FE731
+file:..\synwork\zjh_BasGate_prem.srd|io:o|time:1641311568|size:1607|exec:0|csum:
+file:..\zjh_BasGate.sap|io:o|time:1641311568|size:117|exec:0|csum:
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:zjh_BasGate.plg|io:o|time:1641311568|size:97|exec:0|csum:
+file:..\synwork\zjh_BasGate_prem.srd|io:o|time:1641311568|size:1607|exec:0|csum:
+file:..\synlog\zjh_BasGate_premap.srr|io:o|time:1641311568|size:2409|exec:0|csum:
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

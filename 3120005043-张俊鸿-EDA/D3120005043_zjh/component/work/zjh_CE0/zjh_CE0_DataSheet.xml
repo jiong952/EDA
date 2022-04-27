@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>zjh_CE0</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P060</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/D3120005043_zjh/component/work/zjh_CE0</location>
+    <state>GENERATED ( Thu Dec 23 23:19:55 2021 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE0\zjh_CE0.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_BasGate.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_comb.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_seq.v</file>
+  </fileset>
+  <io>
+    <port-name>Q3</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Q2</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>C</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Clk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Q1</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Q0</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>MR</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>AND3</core-exttype>
+    <core-name>AND3_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>INV</core-exttype>
+    <core-name>INV_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>zjh_74HC161</core-exttype>
+    <core-location>hdl\3120005043_seq.v</core-location>
+    <core-name>zjh_74HC161_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for zjh_CE0</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

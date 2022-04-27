@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_comp.srs  -osyn  C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_mult.srs  -log  C:\D3120005043_zjh\synthesis\synlog\zjh_BasGate_multi_srs_gen.srr 
+relcom:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\zjh_BasGate_comp.srs -osyn ..\synwork\zjh_BasGate_mult.srs -log ..\synlog\zjh_BasGate_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\zjh_BasGate_comp.srs|io:i|time:1641311566|size:1673|exec:0|csum:A26BF88E6F93630FF84FC82DF58F026F
+file:..\synwork\zjh_BasGate_mult.srs|io:o|time:1641311567|size:1416|exec:0|csum:
+file:..\synlog\zjh_BasGate_multi_srs_gen.srr|io:o|time:1641311567|size:673|exec:0|csum:
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

@@ -1,0 +1,42 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Jan 04 06:53:13 2022
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : CP1_0
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : Constant Decoder
+AEB                             : Active Low
+Insert Regs                     : No
+Insert Pads                     : No
+Clock Edge                      : Rise
+width                           : 4
+Constant                        : 0
+Radix                           : Hexadecimal
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      2  Total:   1536   (0.13%)
+    IO (W/ clocks)             Used:      0  Total:     71   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      4   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to C:/D3120005043_zjh/smartgen\CP1_0\CP1_0.v.
+
+ ** Log Ended:   Tue Jan 04 06:53:14 2022
+

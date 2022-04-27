@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>zjh_CE3</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P060</die>
+    <package>100 VQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>C:/D3120005043_zjh/component/work/zjh_CE3</location>
+    <state>GENERATED ( Tue Jan 04 10:56:36 2022 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE0\zjh_CE0.v</file>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE1\zjh_CE1.v</file>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE2\zjh_CE2.v</file>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE3\zjh_CE3.v</file>
+    <file>C:\D3120005043_zjh\component\work\zjh_CE4\zjh_CE4.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_BasGate.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_comb.v</file>
+    <file>C:\D3120005043_zjh\hdl\3120005043_seq.v</file>
+    <file>C:\D3120005043_zjh\hdl\exam.v</file>
+    <file>C:\D3120005043_zjh\hdl\T3120005043.v</file>
+    <file>C:\D3120005043_zjh\hdl\zjh_exam.v</file>
+    <file>C:\D3120005043_zjh\smartgen\C0\C0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CE0\CE0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP0\CP0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP1\CP1.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP1_0\CP1_0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP2\CP2.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP2_0\CP2_0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\CP3_0\CP3_0.v</file>
+    <file>C:\D3120005043_zjh\smartgen\newCore\newCore.v</file>
+    <file>C:\D3120005043_zjh\smartgen\p1\p1.v</file>
+  </fileset>
+  <io>
+    <port-name>b</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Clock</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Y4</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>g</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Aclr</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>c</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Y1</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>e</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Y3</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>f</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>d</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>a</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>Y2</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/D3120005043_zjh/smartgen/newCore</core-location>
+    <core-name>newCore_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>Reg</core-exttype>
+    <core-location>hdl\3120005043_comb.v</core-location>
+    <core-name>Reg_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>zjh_74HC138</core-exttype>
+    <core-location>hdl\3120005043_comb.v</core-location>
+    <core-name>zjh_74HC138_0</core-name>
+  </core>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>zjh_74HC4511</core-exttype>
+    <core-location>hdl\3120005043_comb.v</core-location>
+    <core-name>zjh_74HC4511_0</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for zjh_CE3</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

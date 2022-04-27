@@ -1,0 +1,54 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "zjh_CE3")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "zjh_CE3")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  newCore_0/INV_1/A  newCore_0/INV_1/Y  newCore_0/DFN1C0_NU_0/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT newCore_0/DFN1E1C0_NU_1/CLK  newCore_0/DFN1E1C0_NU_1/Q  newCore_0/INV_0/A  newCore_0/INV_0/Y  newCore_0/DFN1E1C0_NU_1/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  newCore_0/DFN1E1C0_NU_1/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  Reg_0/un1_S_1/B  Reg_0/un1_S_1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  Reg_0/un1_S_1/B  Reg_0/un1_S_1/Y  f_pad/D  f_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_6/B  zjh_74HC138_0/un1_A_6/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_6/B  zjh_74HC138_0/un1_A_6/Y  a_pad/D  a_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_6/B  zjh_74HC138_0/un1_A_6/Y  d_pad/D  d_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_7/A  zjh_74HC138_0/un1_A_7/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_7/A  zjh_74HC138_0/un1_A_7/Y  zjh_74HC138_0/un1_A_7_i/A  zjh_74HC138_0/un1_A_7_i/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_7/A  zjh_74HC138_0/un1_A_7/Y  zjh_74HC138_0/un1_A_7_i/A  zjh_74HC138_0/un1_A_7_i/Y  g_pad/D  g_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_8/B  zjh_74HC138_0/un1_A_8/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1C0_NU_0/CLK  newCore_0/DFN1C0_NU_0/Q  zjh_74HC138_0/un1_A_8/B  zjh_74HC138_0/un1_A_8/Y  b_pad/D  b_pad/PAD  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1E1C0_NU_1/CLK  newCore_0/DFN1E1C0_NU_1/Q  Reg_0/un1_S_1/A  Reg_0/un1_S_1/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1E1C0_NU_1/CLK  newCore_0/DFN1E1C0_NU_1/Q  zjh_74HC138_0/un1_A_6/A  zjh_74HC138_0/un1_A_6/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1E1C0_NU_1/CLK  newCore_0/DFN1E1C0_NU_1/Q  zjh_74HC138_0/un1_A_7/B  zjh_74HC138_0/un1_A_7/Y  	(10.0:10.0:10.0) )
+
+    (PATHCONSTRAINT newCore_0/DFN1E1C0_NU_1/CLK  newCore_0/DFN1E1C0_NU_1/Q  zjh_74HC138_0/un1_A_8/A  zjh_74HC138_0/un1_A_8/Y  	(10.0:10.0:10.0) )
+
+  )
+)
+)

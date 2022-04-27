@@ -1,0 +1,9 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\D3120005043_zjh\synthesis\synwork\zjh_BasGate_comp.srs  -hdllog  C:\D3120005043_zjh\synthesis\synlog\zjh_BasGate_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I C:\D3120005043_zjh\synthesis\  -I C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -encrypt  -pro  -dmgen  C:\D3120005043_zjh\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\D3120005043_zjh\hdl\3120005043_BasGate.v 
+relcom:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\zjh_BasGate_comp.srs -hdllog ..\synlog\zjh_BasGate_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib -v2001 -devicelib ..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -lib work ..\..\hdl\3120005043_BasGate.v
+rc:0 success:1 runtime:0
+file:..\synwork\zjh_BasGate_comp.srs|io:o|time:1641311566|size:1673|exec:0|csum:
+file:..\synlog\zjh_BasGate_compiler.srr|io:o|time:1641311833|size:2854|exec:0|csum:
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\..\hdl\3120005043_BasGate.v|io:i|time:1639705007|size:478|exec:0|csum:AC2F8CBC53ABF1C055CE1F0705D36D99
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\c_hdl.exe|io:i|time:1508986516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508986724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

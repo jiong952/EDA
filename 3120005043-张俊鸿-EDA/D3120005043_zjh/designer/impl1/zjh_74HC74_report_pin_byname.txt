@@ -1,0 +1,17 @@
+*****************************************************************
+Pin Report - Date: Tue Dec 21 17:55:47 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_74HC74
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Clk   98   No     GAA0/IO02RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D     99   No     IO01RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+Q     95   No     GAB1/IO05RSB0  LVTTL    12                 High  None           No    35                No           No
+Rd    97   No     GAA1/IO03RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Sd    96   No     GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No

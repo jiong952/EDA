@@ -1,0 +1,13 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2:7:2:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+@N: CG364 :"C:\D3120005043_zjh\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":31:7:31:17|Synthesizing module zjh_74HC138 in library work.
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":56:7:56:18|Synthesizing module zjh_74HC4511 in library work.
+@N: CG179 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":84:12:84:12|Removing redundant assignment.
+@N: CG364 :"C:\D3120005043_zjh\component\work\zjh_CE1\zjh_CE1.v":9:7:9:13|Synthesizing module zjh_CE1 in library work.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,27 @@
+Software Version: 11.9.0.4
+creating folder: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_fp
+programmer 'S2001L82E8' : FlashPro5
+Created new project 'D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_fp\xulie_1110.pro'
+PDB file 'D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.pdb' has been loaded successfully.
+DESIGN : xulie_1110;  CHECKSUM : 0B21;  PDB_VERSION : 1.9
+programmer 'S2001L82E8' : Scan Chain...
+Warning: programmer 'S2001L82E8' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001L82E8' : Scan Chain PASSED.
+programmer 'S2001L82E8' : Executing action PROGRAM
+programmer 'S2001L82E8' : EXPORT FSN[48] = 8178a71860e0
+programmer 'S2001L82E8' : Erase ...
+programmer 'S2001L82E8' : Completed erase
+programmer 'S2001L82E8' : EXPORT CHECKSUM[16] = 0b21
+programmer 'S2001L82E8' : Programming FPGA Array
+programmer 'S2001L82E8' : Verifying FPGA Array
+programmer 'S2001L82E8' :         Verifying FPGA Array -- pass
+programmer 'S2001L82E8' : Finished: Mon Dec 30 16:41:37 2019 (Elapsed time 00:00:28)
+programmer 'S2001L82E8' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'xulie_1110' has been modified. Do you want to save it? [YES]
+creating folder: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_fp\projectData
+Project saved.
+Project closed.

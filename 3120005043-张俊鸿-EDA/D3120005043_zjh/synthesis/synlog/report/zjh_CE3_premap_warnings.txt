@@ -1,0 +1,1 @@
+@W: MT530 :"c:\d3120005043_zjh\smartgen\newcore\newcore.v":20:11:20:21|Found inferred clock zjh_CE3|Clock which controls 2 sequential elements including newCore_0.DFN1C0_NU_0. This clock has no specified timing constraint which may adversely impact design performance. 

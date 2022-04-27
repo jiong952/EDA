@@ -1,0 +1,19 @@
+*****************************************************************
+Pin Report - Date: Fri Dec 24 09:04:56 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_CE0
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+C     46   Yes    GDA2/IO54RSB1  LVTTL    12                 High  None           No    35                No           No
+Clk   61   No     GCB2/IO42RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+MR    10   Yes    GFB1/IO87RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+Q0    42   Yes    IO58RSB1       LVTTL    12                 High  None           No    35                No           No
+Q1    43   Yes    IO57RSB1       LVTTL    12                 High  None           No    35                No           No
+Q2    44   Yes    GDC2/IO56RSB1  LVTTL    12                 High  None           No    35                No           No
+Q3    45   Yes    GDB2/IO55RSB1  LVTTL    12                 High  None           No    35                No           No

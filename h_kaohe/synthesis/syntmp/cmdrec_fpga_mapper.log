@@ -1,0 +1,16 @@
+D:\Software\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\Libero-work\h_kaohe\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\Libero-work\h_kaohe\synthesis\synlog\report\xulie_1110_fpga_mapper.xml  -top_level_module  xulie_1110  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\Libero-work\h_kaohe\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\Libero-work\h_kaohe\synthesis\xulie_1110.edn   -freq 100.000   D:\Libero-work\h_kaohe\synthesis\synwork\xulie_1110_prem.srd  -sap  D:\Libero-work\h_kaohe\synthesis\xulie_1110.sap  -otap  D:\Libero-work\h_kaohe\synthesis\xulie_1110.tap  -omap  D:\Libero-work\h_kaohe\synthesis\xulie_1110.map  -devicelib  D:\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  D:\Libero-work\h_kaohe\synthesis\xulie_1110.sap  -ologparam  D:\Libero-work\h_kaohe\synthesis\syntmp\xulie_1110.plg  -osyn  D:\Libero-work\h_kaohe\synthesis\xulie_1110.srm  -prjdir  D:\Libero-work\h_kaohe\synthesis\  -prjname  xulie_1110_syn  -log  D:\Libero-work\h_kaohe\synthesis\synlog\xulie_1110_fpga_mapper.srr 
+relcom:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\xulie_1110_fpga_mapper.xml -top_level_module xulie_1110 -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\xulie_1110.edn -freq 100.000 ..\synwork\xulie_1110_prem.srd -sap ..\xulie_1110.sap -otap ..\xulie_1110.tap -omap ..\xulie_1110.map -devicelib ..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\xulie_1110.sap -ologparam xulie_1110.plg -osyn ..\xulie_1110.srm -prjdir ..\ -prjname xulie_1110_syn -log ..\synlog\xulie_1110_fpga_mapper.srr
+rc:1 success:1 runtime:1
+file:..\scratchproject.prs|io:o|time:1577636860|size:1692|exec:0|csum:
+file:..\xulie_1110.edn|io:o|time:1577793574|size:13398|exec:0|csum:
+file:..\synwork\xulie_1110_prem.srd|io:i|time:1577793573|size:2134|exec:0|csum:3DEC700837A2A12E84F3A28B6AB73674
+file:..\xulie_1110.sap|io:o|time:1577793573|size:237|exec:0|csum:
+file:..\xulie_1110.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\xulie_1110.map|io:o|time:1577793574|size:28|exec:0|csum:
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\xulie_1110.sap|io:o|time:1577793573|size:237|exec:0|csum:
+file:xulie_1110.plg|io:o|time:1577793574|size:346|exec:0|csum:
+file:..\xulie_1110.srm|io:o|time:1577793574|size:68759|exec:0|csum:
+file:..\synlog\xulie_1110_fpga_mapper.srr|io:o|time:1577793574|size:13674|exec:0|csum:
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:..\..\..\..\Software\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

@@ -1,0 +1,105 @@
+Microsemi Libero Software
+Version: 11.9.0.4
+Release: v11.9
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\Libero-work\h_kaohe\designer'
+Info: The design xulie_1110.adb was last modified by software version 11.9.0.4.
+Opened an existing Libero design xulie_1110.adb.
+
+The Execute Script command succeeded ( 00:00:16 )
+Checking for software updates...
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Tue Dec 31 20:02:31 2019
+
+Placer Finished: Tue Dec 31 20:02:32 2019
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: xulie_1110                      Started: Tue Dec 31 20:02:33 2019
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: xulie_1110                      
+Finished: Tue Dec 31 20:02:35 2019
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
+Total Memory Usage: 108.7 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:08 )
+Warning: File D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_ba.sdf
+         already exists.
+         Do you want to replace the file? [YES]
+Back-annotated to the file(s):
+   .\xulie_1110_ba.sdf
+   .\xulie_1110_ba.v
+
+The Back-Annotate command succeeded ( 00:00:01 )
+Warning: The following directories and files already exist:
+         
+         D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf
+         
+         D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.pdb
+         D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.stp
+         
+         Do you want to replace them? [YES]
+
+The Export-map command succeeded ( 00:00:04 )
+Warning: Overwriting the existing file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.pdb.
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.pdb
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.stp
+Warning: Overwriting the existing directory:
+         D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf.
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_PROGRAM.svf
+Wrote to the file:
+D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_PROGRAM_ARRAY.svf
+Wrote to the file:
+D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_ERASE_ARRAY.svf
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_ERASE.svf
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_ERASE_ALL.svf
+Wrote to the file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_VERIFY.svf
+Wrote to the file:
+D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_svf\xulie_1110_VERIFY_ARRAY.svf
+CHECKSUM: 0B21
+
+The Generate programming file command succeeded ( 00:00:11 )
+Design saved to file D:\Libero-work\h_kaohe\designer\impl1\xulie_1110.adb.
+Wrote pin report to file: D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file:
+D:\Libero-work\h_kaohe\designer\impl1\xulie_1110_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

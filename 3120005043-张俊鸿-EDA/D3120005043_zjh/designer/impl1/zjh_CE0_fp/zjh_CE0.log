@@ -1,0 +1,27 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
+Software Version: 11.9.0.4
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_CE0.pdb' has been loaded successfully.
+DESIGN : zjh_CE0;  CHECKSUM : 5B8E;  PDB_VERSION : 1.9
+programmer 'S2001MK8PF' : FlashPro5
+Opened 'C:\D3120005043_zjh\designer\impl1\zjh_CE0_fp\zjh_CE0.pro'
+programmer 'S2001MK8PF' : Scan Chain...
+Warning: programmer 'S2001MK8PF' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001MK8PF' : Scan Chain PASSED.
+programmer 'S2001MK8PF' : Executing action PROGRAM
+programmer 'S2001MK8PF' : EXPORT FSN[48] = 8178a70c20b4
+programmer 'S2001MK8PF' : Erase ...
+programmer 'S2001MK8PF' : Completed erase
+programmer 'S2001MK8PF' : EXPORT CHECKSUM[16] = 5b8e
+programmer 'S2001MK8PF' : Programming FPGA Array
+programmer 'S2001MK8PF' : Verifying FPGA Array
+programmer 'S2001MK8PF' :         Verifying FPGA Array -- pass
+programmer 'S2001MK8PF' : Finished: Fri Dec 24 09:09:37 2021 (Elapsed time 00:02:35)
+programmer 'S2001MK8PF' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Project closed.

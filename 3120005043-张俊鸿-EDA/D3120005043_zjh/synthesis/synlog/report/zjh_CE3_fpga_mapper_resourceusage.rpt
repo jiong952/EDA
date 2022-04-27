@@ -1,0 +1,34 @@
+Target Part: A3P060_VQFP100_STD
+Report for cell zjh_CE3.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     4      0.0        0.0
+               INV     3      1.0        3.0
+             NOR2A     1      1.0        1.0
+               OR2     1      1.0        1.0
+              OR2A     1      1.0        1.0
+              OR2B     1      1.0        1.0
+               VCC     4      0.0        0.0
+
+
+            DFN1C0     1      1.0        1.0
+          DFN1E1C0     1      1.0        1.0
+                   -----          ----------
+             TOTAL    17                 9.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    11
+                   -----
+             TOTAL    13
+
+
+Core Cells         : 9 of 1536 (1%)
+IO Cells           : 13
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+

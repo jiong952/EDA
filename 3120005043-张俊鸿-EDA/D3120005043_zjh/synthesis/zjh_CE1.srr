@@ -1,0 +1,100 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: MONICA-PC
+
+# Tue Dec 28 13:06:57 2021
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\D3120005043_zjh\smartgen\newCore\newCore.v" (library work)
+@I::"C:\D3120005043_zjh\hdl\3120005043_comb.v" (library work)
+@I::"C:\D3120005043_zjh\component\work\zjh_CE1\zjh_CE1.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module zjh_CE1
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":977:7:977:14|Synthesizing module DFN1E1C0 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2:7:2:10|Synthesizing module AND2 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":929:7:929:12|Synthesizing module DFN1C0 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\smartgen\newCore\newCore.v":5:7:5:13|Synthesizing module newCore in library work.
+
+@W: CL168 :"C:\D3120005043_zjh\smartgen\newCore\newCore.v":19:9:19:18|Removing instance U_AND2_0_1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":31:7:31:17|Synthesizing module zjh_74HC138 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":56:7:56:18|Synthesizing module zjh_74HC4511 in library work.
+
+@N: CG179 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":84:12:84:12|Removing redundant assignment.
+@W: CL118 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Latch generated from always block for signal L[6:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\D3120005043_zjh\component\work\zjh_CE1\zjh_CE1.v":9:7:9:13|Synthesizing module zjh_CE1 in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:06:57 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:06:57 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:06:57 2021
+
+###########################################################]
+
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"C:\D3120005043_zjh\synthesis\synlog\zjh_CE1_multi_srs_gen.srr"
+
+@A: premap output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Pre-mapping Report
+@R:"C:\D3120005043_zjh\synthesis\synlog\zjh_CE1_premap.srr"
+
+@A: fpga_mapper output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Map & Optimize Report
+@R:"C:\D3120005043_zjh\synthesis\synlog\zjh_CE1_fpga_mapper.srr"

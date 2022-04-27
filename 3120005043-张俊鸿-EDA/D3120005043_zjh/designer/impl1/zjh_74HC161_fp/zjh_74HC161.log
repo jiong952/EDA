@@ -1,0 +1,36 @@
+Software Version: 11.9.0.4
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_74HC161_fp
+Created new project 'C:\D3120005043_zjh\designer\impl1\zjh_74HC161_fp\zjh_74HC161.pro'
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_74HC161.pdb' has been loaded successfully.
+DESIGN : zjh_74HC161;  CHECKSUM : C5BE;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+programmer 'S2001M04ZZ' : FlashPro5
+Rescanning for Programmers DONE.
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_74HC161.pdb' has been loaded successfully.
+DESIGN : zjh_74HC161;  CHECKSUM : C5BE;  PDB_VERSION : 1.9
+programmer 'S2001M04ZZ' : Scan Chain...
+Error: Vjtag is disconnected or shorted. Please check the FPGA's Vjtag pin is properly
+       connected. Please check that the target board is powered.
+Error: programmer 'S2001M04ZZ' : Scan Chain FAILED.
+Error: Failed to run Action.
+programmer 'S2001M04ZZ' : Scan Chain...
+Warning: programmer 'S2001M04ZZ' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001M04ZZ' : Scan Chain PASSED.
+programmer 'S2001M04ZZ' : Executing action PROGRAM
+programmer 'S2001M04ZZ' : EXPORT FSN[48] = 8178a71870e0
+programmer 'S2001M04ZZ' : Erase ...
+programmer 'S2001M04ZZ' : Completed erase
+programmer 'S2001M04ZZ' : EXPORT CHECKSUM[16] = c5be
+programmer 'S2001M04ZZ' : Programming FPGA Array
+programmer 'S2001M04ZZ' : Verifying FPGA Array
+programmer 'S2001M04ZZ' :         Verifying FPGA Array -- pass
+programmer 'S2001M04ZZ' : Finished: Mon Dec 20 11:10:37 2021 (Elapsed time 00:03:38)
+programmer 'S2001M04ZZ' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'zjh_74HC161' has been modified. Do you want to save it? [YES]
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_74HC161_fp\projectData
+Project saved.
+Project closed.

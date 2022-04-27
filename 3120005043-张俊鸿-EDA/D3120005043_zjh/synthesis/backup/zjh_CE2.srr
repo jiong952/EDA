@@ -1,0 +1,355 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 7 6.1
+#Hostname: MONICA-PC
+
+# Tue Dec 28 13:41:51 2021
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\D3120005043_zjh\hdl\3120005043_seq.v" (library work)
+@W:"C:\D3120005043_zjh\hdl\3120005043_seq.v":38:11:38:13|Net Q_n is not declared.
+@I::"C:\D3120005043_zjh\hdl\3120005043_comb.v" (library work)
+@I::"C:\D3120005043_zjh\component\work\zjh_CE2\zjh_CE2.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module zjh_CE2
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":100:7:100:16|Synthesizing module zjh_74HC85 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_seq.v":3:7:3:17|Synthesizing module zjh_74HC161 in library work.
+
+@N: CG364 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":56:7:56:18|Synthesizing module zjh_74HC4511 in library work.
+
+@N: CG179 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":84:12:84:12|Removing redundant assignment.
+@W: CL118 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Latch generated from always block for signal L[6:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\D3120005043_zjh\component\work\zjh_CE2\zjh_CE2.v":9:7:9:13|Synthesizing module zjh_CE2 in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:41:52 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:41:52 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:41:52 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 28 13:41:53 2021
+
+###########################################################]
+Pre-mapping Report
+
+# Tue Dec 28 13:41:54 2021
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\D3120005043_zjh\synthesis\zjh_CE2_scck.rpt 
+Printing clock  summary report in "C:\D3120005043_zjh\synthesis\zjh_CE2_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+
+Clock Summary
+*****************
+
+Start           Requested     Requested     Clock        Clock                   Clock
+Clock           Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------
+zjh_CE2|Clk     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     4    
+======================================================================================
+
+@W: MT530 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Found inferred clock zjh_CE2|Clk which controls 4 sequential elements including zjh_74HC161_0.Q[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\D3120005043_zjh\synthesis\zjh_CE2.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 28 13:41:55 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Dec 28 13:41:55 2021
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+@N: MO231 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Found counter in view:work.zjh_74HC161(verilog) instance Q[3:0] 
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Sequential instance zjh_74HC161_0.Q[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Sequential instance zjh_74HC161_0.Q[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Sequential instance zjh_74HC161_0.Q[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_seq.v":9:4:9:9|Sequential instance zjh_74HC161_0.Q[3] is reduced to a combinational gate by constant propagation.
+@N: MO106 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:11|Found ROM .delname. (in view: work.zjh_74HC4511(verilog)) with 16 words by 7 bits.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":61:8:61:9|Sequential instance zjh_74HC4511_0.L[6] is reduced to a combinational gate by constant propagation.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+@N: BN115 :"c:\d3120005043_zjh\component\work\zjh_ce2\zjh_ce2.v":164:12:164:24|Removing instance zjh_74HC161_0 (in view: work.zjh_CE2(verilog)) of type view:work.zjh_74HC161(verilog) because it does not drive other instances.
+@N: BN115 :"c:\d3120005043_zjh\component\work\zjh_ce2\zjh_ce2.v":178:13:178:26|Removing instance zjh_74HC4511_0 (in view: work.zjh_CE2(verilog)) of type view:work.zjh_74HC4511(verilog) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Writing Analyst data base C:\D3120005043_zjh\synthesis\synwork\zjh_CE2_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+@W: MT420 |Found inferred clock zjh_CE2|Clk with period 10.00ns. Please declare a user-defined clock on object "p:Clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Dec 28 13:41:56 2021
+#
+
+
+Top view:               zjh_CE2
+Library name:           PA3
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+zjh_CE2|Clk        100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+=====================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3P060_VQFP100_STD
+Report for cell zjh_CE2.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+            OUTBUF     7
+                   -----
+             TOTAL     7
+
+
+Core Cells         : 0 of 1536 (0%)
+IO Cells           : 7
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 28 13:41:56 2021
+
+###########################################################]

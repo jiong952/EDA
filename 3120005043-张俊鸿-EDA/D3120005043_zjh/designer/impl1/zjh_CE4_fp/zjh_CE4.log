@@ -1,0 +1,31 @@
+Software Version: 11.9.0.4
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_CE4_fp
+Created new project 'C:\D3120005043_zjh\designer\impl1\zjh_CE4_fp\zjh_CE4.pro'
+PDB file 'C:\D3120005043_zjh\designer\impl1\zjh_CE4.pdb' has been loaded successfully.
+DESIGN : zjh_CE4;  CHECKSUM : 6C44;  PDB_VERSION : 1.9
+Rescanning for Programmers...
+Rescanning for Programmers DONE.
+Rescanning for Programmers...
+programmer 'S2001JZ9PA' : FlashPro5
+Rescanning for Programmers DONE.
+programmer 'S2001JZ9PA' : Scan Chain...
+Warning: programmer 'S2001JZ9PA' : Vpump has been selected on programmer AND an externally
+         provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'S2001JZ9PA' : Scan Chain PASSED.
+programmer 'S2001JZ9PA' : Executing action PROGRAM
+programmer 'S2001JZ9PA' : EXPORT FSN[48] = 8178a71840ec
+programmer 'S2001JZ9PA' : Erase ...
+programmer 'S2001JZ9PA' : Completed erase
+programmer 'S2001JZ9PA' : EXPORT CHECKSUM[16] = 6c44
+programmer 'S2001JZ9PA' : Programming FPGA Array
+programmer 'S2001JZ9PA' : Verifying FPGA Array
+programmer 'S2001JZ9PA' :         Verifying FPGA Array -- pass
+programmer 'S2001JZ9PA' : Finished: Tue Jan 04 11:25:23 2022 (Elapsed time 00:02:55)
+programmer 'S2001JZ9PA' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'zjh_CE4' has been modified. Do you want to save it? [YES]
+creating folder: C:\D3120005043_zjh\designer\impl1\zjh_CE4_fp\projectData
+Project saved.
+Project closed.

@@ -1,0 +1,23 @@
+
+Starting:    D:\Software\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     D:\Software\Libero_SoC_v11.9\SynplifyPro
+Hostname:    ¾Į
+Date:        Tue Dec 31 19:59:54 2019
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro xulie_1110_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "xulie_1110_syn.tcl"
+New HDL Analyst: enabled
+Note: Opening local project RTL file 'D:\Libero-work\h_kaohe\synthesis\xulie_1110.srs'
+exit status=0
+License checkin: synplifypro_actel

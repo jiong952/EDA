@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Thu Dec 23 15:48:44 2021 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: zjh_74HC194
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port   |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+Clk     61   No     GCB2/IO42RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+D[0]    15   Yes    GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+D[1]    10   No     GFB1/IO87RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+In[0]   13   No     GFA0/IO85RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+In[1]   33   No     IO64RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+In[2]   95   No     GAB1/IO05RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+In[3]   97   No     GAA1/IO03RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+MR_N    32   No     IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+Out[0]  31   No     IO66RSB1       LVTTL    12                 High  None           No    35                No           No
+Out[1]  2    No     GAA2/IO51RSB1  LVTTL    12                 High  None           No    35                No           No
+Out[2]  94   No     GAC0/IO06RSB0  LVTTL    12                 High  None           No    35                No           No
+Out[3]  98   No     GAA0/IO02RSB0  LVTTL    12                 High  None           No    35                No           No
+S[0]    92   No     IO08RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+S[1]    96   No     GAB0/IO04RSB0  LVTTL    ---                ---   None           ---   ---               No           No

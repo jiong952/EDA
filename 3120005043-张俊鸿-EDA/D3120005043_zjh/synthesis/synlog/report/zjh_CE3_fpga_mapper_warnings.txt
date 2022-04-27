@@ -1,0 +1,8 @@
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\d3120005043_zjh\hdl\3120005043_comb.v":62:8:62:9|Sequential instance zjh_74HC4511_0.L[6] is reduced to a combinational gate by constant propagation.
+@W: MT420 |Found inferred clock zjh_CE3|Clock with period 10.00ns. Please declare a user-defined clock on object "p:Clock"

@@ -1,0 +1,26 @@
+----------------------------------------------------------------------
+Report for cell zjh_CE0.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND3         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         1       0.0        0.0
+                             OUTBUF         5       0.0        0.0
+                                VCC         1       0.0        0.0
+                        zjh_74HC161         1      10.0       10.0
+                            
+                         TOTAL             11                 11.0
+----------------------------------------------------------------------
+Report for cell zjh_74HC161.netlist
+     Instance path:  zjh_74HC161_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1B         3       1.0        3.0
+                            
+                         TOTAL             12                 10.0

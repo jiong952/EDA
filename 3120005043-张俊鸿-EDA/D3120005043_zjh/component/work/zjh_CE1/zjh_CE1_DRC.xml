@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>zjh_CE1</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin zjh_74HC138_0:A[2:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/zjh_CE1/pins/zjh_74HC138_0:A</crossprobe>
+  </drc>
+</drcreport>

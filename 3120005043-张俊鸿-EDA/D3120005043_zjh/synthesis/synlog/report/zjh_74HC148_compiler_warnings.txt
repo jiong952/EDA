@@ -1,0 +1,2 @@
+@W: CL118 :"C:\D3120005043_zjh\hdl\3120005043_comb.v":36:8:36:9|Latch generated from always block for signal L[6:0]; possible missing assignment in an if or case statement.
+
